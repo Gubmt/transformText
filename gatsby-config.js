@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    title: `Editor de Texto`,
+    description: `Um lugar pra você editar seus textos.`,
     author: `@gatsbyjs`,
   },
   plugins: [
@@ -25,6 +25,21 @@ module.exports = {
         theme_color: `#663399`,
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+      },
+    },
+    {
+      resolve: `gatsby-plugin-styled-components`,
+      options: {
+        displayName: process.env.NODE_ENV !== 'production',
+      },
+    },
+    {
+      resolve: `gatsby-plugin-page-creator`,
+      options: {
+        path: `${__dirname}/src`,
+        ignore: [`**/styles.js`],
+        // See pattern syntax recognized by micromatch
+        // https://www.npmjs.com/package/micromatch#matching-features
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
