@@ -6,19 +6,21 @@ import SideBarRight from '../components/sideBarRight';
 import Header from '../components/header';
 import Footer from '../components/footer';
 
-import { Container, Wrapper } from './styles';
+import { Container } from './styles';
+import {GlobalStyle} from '../components/layout/globalStyles.js'
 
 const index = () => {
   return (
-    <Container>
-      <Wrapper>
-        <Header/>
-        <SideBarLeft/>
-        <Input/>
-        <SideBarRight/>
-        <Footer/>
-      </Wrapper>
-    </Container>
+    <>
+      <GlobalStyle/>
+      <Container>
+          <Header/>
+          <SideBarLeft/>
+          <Input/>
+          <SideBarRight/>
+          <Footer/>
+      </Container>
+    </>
   )
 }
 
