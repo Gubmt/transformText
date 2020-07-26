@@ -3,7 +3,7 @@ module.exports = {
     title: `Editor de Texto`,
     description: `Um lugar pra você editar seus textos.`,
     author: `@gatsbyjs`,
-    siteUrl: `https://www.example.com`,
+    siteUrl: `https://transformtext.netlify.app/`,
   },
   plugins: [
     `gatsby-plugin-sitemap`,
