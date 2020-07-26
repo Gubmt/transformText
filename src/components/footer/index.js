@@ -3,7 +3,7 @@ import React from 'react';
 import { Container, AuthorDescription, Author, SocialMedia, Wrapper } from './styles';
 
 import facebook from '../../images/Facebook.svg';
-import instagram from '../../images/instagram.svg';
+import instagram from '../../images/Instagram.svg';
 import linkedin from '../../images/Linkedin.svg';
 
 function Footer() {
