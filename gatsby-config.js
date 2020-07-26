@@ -3,8 +3,10 @@ module.exports = {
     title: `Editor de Texto`,
     description: `Um lugar pra você editar seus textos.`,
     author: `@gatsbyjs`,
+    siteUrl: `https://www.example.com`,
   },
   plugins: [
+    `gatsby-plugin-sitemap`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -37,7 +39,7 @@ module.exports = {
       resolve: `gatsby-plugin-page-creator`,
       options: {
         path: `${__dirname}/src`,
-        ignore: [`**/styles.js`],
+        ignore: [`**/styles.js`, `**/globalStyles.js`],
         // See pattern syntax recognized by micromatch
         // https://www.npmjs.com/package/micromatch#matching-features
       },

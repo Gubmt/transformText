@@ -2,18 +2,16 @@ import React from 'react';
 
 import { Container, AuthorDescription, Author, SocialMedia, Wrapper } from './styles';
 
-import facebook from '../../../public/icons/Facebook.svg';
-import instagram from '../../../public/icons/instagram.svg';
-import linkedin from '../../../public/icons/Linkedin.svg';
-
+import facebook from '../../images/Facebook.svg';
+import instagram from '../../images/instagram.svg';
+import linkedin from '../../images/Linkedin.svg';
 
 function Footer() {
   return (
     <Container>
       <Wrapper>
         <AuthorDescription>
-          <Author>Gustavo Barbieri 2020</Author>
-          <Author>gustavobarbieri@ymail.com</Author>
+          <Author>Transformador de Texto 2020</Author>
         </AuthorDescription>
         <SocialMedia>
           <a href="https://www.facebook.com/gustavo.barbieri.14"><img alt="Facebook" src={facebook} height="50" width="50"/></a>
