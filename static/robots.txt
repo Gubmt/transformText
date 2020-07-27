@@ -6,4 +6,4 @@ Disallow: /components/
 User-agent: *
 Allow: /
 
-Sitemap: http://www.example.com/sitemap.xml
+Sitemap: https://transformtext.netlify.app/
