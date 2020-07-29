@@ -2,8 +2,8 @@ module.exports = {
   siteMetadata: {
     title: `Editor de Texto`,
     description: `Um lugar pra você editar seus textos.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://transformtext.netlify.app/`,
+    author: `@gustavobarbieri`,
+    siteUrl: `https://www.barbieridev.com`,
   },
   plugins: [
     `gatsby-plugin-sitemap`,

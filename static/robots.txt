@@ -2,8 +2,4 @@
 User-agent: Googlebot
 Disallow: /components/
 
-# Group 2
-User-agent: *
-Allow: /
-
-Sitemap: https://transformtext.netlify.app/sitemap.xml
+Sitemap: https://www.barbieridev.com/sitemap.xml
